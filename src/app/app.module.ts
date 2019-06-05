@@ -5,14 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DeckComponent } from './components/deck/deck.component';
 import { CardGraphicComponent } from './components/card-graphic/card-graphic.component';
-import { ShuffleComponent } from './components/shuffle/shuffle.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DeckComponent,
-    CardGraphicComponent,
-    ShuffleComponent
+    CardGraphicComponent
   ],
   imports: [
     BrowserModule,

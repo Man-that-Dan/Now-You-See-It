@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Card } from '../../model/Card';
 
 
+
 @Component({
   selector: 'app-deck',
   templateUrl: './deck.component.html',
   styleUrls: ['./deck.component.css']
 })
 export class DeckComponent implements OnInit {
-  cards:Card = [];
+  cards: Card[] = [];
 
   constructor() { }
 
@@ -37,6 +38,18 @@ export class DeckComponent implements OnInit {
         this.cards.push(new Card(currsuit, j));
       }
     }
+  }
+//random compare function to pass to sort
+  RandCompare () {
+    {
+      if (Math.random()<.5) return -1;
+      else return 1;
+    }
+
+  }
+//shuffles cards
+  Shuffle() {
+    this.cards = this.cards.sort(this.RandCompare)
   }
 
 }

@@ -1,0 +1,52 @@
+.bouncy {
+ margin-left:41%;
+ height: 6vw;
+width: 17vw;
+ position:relative;
+ font-size: 4vw;
+ background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 3vw;
+
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+
+}
+.bouncy:active {
+	position:relative;
+	top:1px;
+}
+.bouncy:hover {
+	background-color:#5cbf2a;
+}
+
+
+@keyframes bouncy {
+ 0%{top:0em}
+ 40%{top:0em}
+ 43%{top:-0.9em}
+ 46%{top:0em}
+ 48%{top:-0.4em}
+ 50%{top:0em}
+ 100%{top:0em;}
+}
+
+
+.deckHeader {
+  height: 26vw;
+background-color: #9c0c0c;
+}
+
+#DeckTitle {
+font-family: sans-serif;
+text-align: center;
+padding: 2vw;
+color: white;
+}
