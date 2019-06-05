@@ -1,3 +1,9 @@
-<p>
-  {{ card.suit }}
-</p>
+<div class="card">
+  <p class={{getColor()}} > {{getNum()}} </p>
+  <img class="cardsuit" src={{getSuit()}} />
+
+    <img class="middle" src={{getMiddle()}} />
+
+  <img style="text-align:right; float:right" class="cardsuit" src={{getSuit()}} />
+  <p style="text-align:right" class={{getColor()}} > {{getNum()}} </p>
+</div>

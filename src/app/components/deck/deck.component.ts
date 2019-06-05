@@ -17,19 +17,19 @@ export class DeckComponent implements OnInit {
       let currsuit:string;
       switch(i) {
         case 0: {
-          currsuit = "hearts";
+          currsuit = "Hearts";
           break;
         }
         case 1: {
-          currsuit = "spades";
+          currsuit = "Spades";
           break;
         }
         case 2: {
-          currsuit = "clubs";
+          currsuit = "Clubs";
           break;
         }
         case 3: {
-          currsuit = "diamonds";
+          currsuit = "Diamonds";
           break;
         }
       }

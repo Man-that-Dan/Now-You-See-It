@@ -1,0 +1,28 @@
+.cardsuit {
+  height: 20px;
+  width: 20px;
+}
+
+.middle {
+  height: 50px;
+  width: 50px;
+  display: block;
+  float: middle;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.card {
+  height: 30vw;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 12%;
+  margin: 2vw;
+}
