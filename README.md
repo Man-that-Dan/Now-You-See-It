@@ -1,5 +1,8 @@
 # NowYouSeeIt
 
+Single page app displays a deck of 52 cards and gives user option to shuffle
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
 ## Development server
